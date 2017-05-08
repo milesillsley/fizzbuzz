@@ -1,7 +1,7 @@
 def fizzbuzz(number)
   return 0 if number == 0
   bythree = number % 3 == 0
-  byfive= number % 5 == 0
+  byfive = number % 5 == 0
 
   if bythree && !byfive
     'fizz'
